@@ -1,0 +1,528 @@
+/* CSS declarations go here */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+
+}
+
+/* Extra Small */
+@media(max-width:767px){
+
+
+    .download {
+        padding-bottom: 30px;
+    }
+
+    .download {
+        padding-top: 30px !important;
+    }
+
+    .imgfold {
+        padding-top: 30px;
+        padding-right: 120px;
+    }
+
+    .lastcta {
+        padding: 20px 0 20px 0;
+    }
+
+    .apph2 {
+        font-weight: bold;
+        font-size: 36px !important;
+        padding-bottom: 5px;
+    }
+
+    .h1review {
+        padding: 0 0 0 0;
+    }
+
+    .heart {
+        margin: -80px 0 -140px 0 !important;
+    }
+
+    .col-xs-12 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
+
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+    .abovefoldbg {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .abovefoldikuva {
+        padding-top: 0px;
+        vertical-align:middle;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+
+    .download {
+          padding-bottom: 30px;
+      }
+    .download {
+        padding-top: 30px !important;
+    }
+
+    .imgfold {
+        padding-top: 35px;
+    }
+
+    .heart {
+        margin: -80px 0 -140px 0 !important;
+    }
+
+    .apph2 {
+        font-weight: bold;
+        font-size: 42px !important;
+        padding-bottom: 5px;
+    }
+
+    .imgletter {
+        margin: 20px 15px 0 0;
+    }
+}
+
+
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+    .abovefoldbg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .abovefoldikuva {
+        padding-top: 50px;
+    }
+    .imgletter {
+        margin: 20px 15px 0 0;
+    }
+    .imgthanksify {
+        margin-top: -20px !important;
+    }
+}
+
+/* Large */
+@media(min-width:1200px){
+    .abovefoldbg {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .abovefoldikuva {
+        padding-right: 50px;
+    }
+    .imgletter {
+        margin: 40px;
+    }
+
+    .heart {
+        margin: -80px;
+    }
+
+    .imgthanksify {
+        margin-top: 50px;
+    }
+
+}
+
+body {
+    background: #eee;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 72px;
+    color: #183446;
+
+}
+
+.mobileapplandingpage {
+    background-color: #eee;
+
+}
+.navbar-inverse .navbar-collapse {
+    border-color: #FFFFFF;
+}
+
+
+.white {
+    color: #fff;
+}
+.h4 {
+    font-weight: 600 !important;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+
+.handfont {
+    font-family: 'Tangerine', serif;
+}
+.theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+    margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+    width: auto;
+}
+
+.navi {
+    background: #183446;
+    border-bottom: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background: #183446;
+    color: #fff;
+    padding-bottom: 13px !important;
+
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navcta {
+    color: #fff !important;
+}
+
+.howitworks {
+    padding: 20px 0px 0 0px;
+    color: #fff;
+    background: url("/restaurant.png") fixed center center #fff;
+}
+
+.reviews{
+    padding: 30px 0px 30px 0px;
+    background: #f9f9f9;
+}
+
+.quote {
+    padding: 15px 0 35px 0;
+}
+.keski {
+    padding-bottom: 30px;
+}
+
+.faq {
+    padding: 50px 0px 50px 0px;
+
+
+}
+
+.faqh1 {
+      padding-bottom: 50px;
+}
+
+.lastcta {
+    padding: 50px 0px 130px 0px;
+    background: url("/nobg.png") repeat fixed center center #fff;
+
+}
+
+.abovefold {
+
+background: #183446;
+
+
+}
+
+.img{width:100%;}
+
+.red {
+background: #C73036;
+
+}
+
+.redtext {
+    color: #C73036;
+}
+.red:hover {
+    background: #FE5048;
+}
+
+.h1 {
+    font-size: 56px;
+    font-weight: bold;
+    color: #183446;
+
+}
+
+.h1review {
+    font-weight: bold;
+    color: #183446;
+
+}
+
+.keskitys {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.download {
+    padding-top: 40px;
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.abovefoldi {
+    padding: 0 0 5px 0;
+
+    color: #fff;
+
+
+}
+.abovefoldikuva {
+    padding: 0 0 20px 0;
+    margin-right: inherit;
+    color: #fff;
+
+}
+
+.boxshadow  {
+
+    font-family: 'Slabo 27px', serif;
+
+}
+.logonavi {
+    padding-top: 0px;
+}
+
+a.navlogo {
+    color: #fff;
+    font-size:28px;
+    padding: 0 40px 0 10px !important;
+}
+
+.navbar-header {
+    padding-top: 0px;
+}
+
+.navbutton {
+    padding: 10px 0 0 0;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+.warmandfuzzy {
+    padding-top: 70px;
+}
+
+.appre {
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+.apph2 {
+    font-size: 46;
+    padding-bottom: 45px;
+
+}
+.apph3 {
+    font-size: 56px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.btnblue {
+
+    background: #183446;
+    color: #fff;
+    padding: 20px 20px;
+
+}
+
+.btnblue:hover {
+    color: #183446;
+    background: #fff;
+}
+
+.whitebg {
+    background: #fff;
+}
+.ctalast {
+    margin-top: 75px;
+    margin-bottom: 45px;
+}
+
+.footer {
+    background: #183446;
+    padding: 30px 15px 30px 15px;
+}
+
+.footernote {
+    color: #fff;
+}
+.footerlinks > li > a{
+    color: #fff;
+    padding: 0 10px 0 10px;
+}
+
+.btnpad {
+    padding-left: 15px;
+
+}
+
+.lead {
+    font-size: 23px;
+}
+
+.imgthanksify {
+    margin-top: 0px;
+}
+
+.footerlinksbuynow {
+    padding: 20px 15px 0 15px;
+    text-align: center;
+
+}
+.ul > li {
+    list-style-type: none;
+}
+.footerlinksbuynow ul > li {
+    list-style: none;
+}
+
+.footerlinksbuynow > li > a {
+    padding: 20px 15px 0 15px;
+
+}
+
+.padding50 {
+    margin-bottom: 100px;
+}
+
+
+.heart {
+    font-size: 270px;
+    text-align: center;
+    color: #C73036;
+    padding: 0;
+    margin: -60px;
+}
+
+.pulse2 {
+    -webkit-animation: pulse2 1s linear infinite;
+    -moz-animation: pulse2 1s linear infinite;
+    -ms-animation: pulse2 1s linear infinite;
+    animation: pulse2 1s linear infinite;
+}
+
+@keyframes pulse2 {
+    0% {
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -o-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+@-moz-keyframes pulse2 {
+    0% {
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -moz-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+@-webkit-keyframes pulse2 {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+@-ms-keyframes pulse2 {
+    0% {
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    50% {
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+    }
+    100% {
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+}
+
+.height {
+    min-height: 100%;
+    height: 100%
+}
